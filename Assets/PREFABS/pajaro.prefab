@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3669606211003155652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 69.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 83.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999845
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0017494613
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448873622934757602, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977283518850313363, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_Name
+      value: Enemigo Variant (10) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033901234589646873, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: velocidadMovimiento
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033901234589646873, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: puntosMovimiento.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8649438769477981613, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1964064442, guid: 137ef27f3171ee34aa9ab0f10b17f645, type: 3}
+    m_RemovedComponents:
+    - {fileID: 4638098872696728240, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+    - {fileID: 1346310641513081936, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+    - {fileID: 8285942540088671344, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4977283518850313363, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6078307474198337796}
+  m_SourcePrefab: {fileID: 100100000, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+--- !u!1 &8646862447670700119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4977283518850313363, guid: 0578ebb148458164a825bd1eaca36804, type: 3}
+  m_PrefabInstance: {fileID: 3669606211003155652}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6078307474198337796
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8646862447670700119}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aef70d95e8ed7234e997c88912109fb0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
